@@ -1,0 +1,12 @@
+/*Variable CSS*/
+:root {
+    --primary-font-family: Roboto;
+    --secondary-font-family: Poppins;
+    --title-font-size: 50px;
+    --text-font-size: 30px;
+    --primary-color: #000000;
+    --secondary-color: #32AB7A;
+    --background-color: #ffffff;
+    --brand-color: #E2F0E9;
+    --line-height: 1.5rem;
+}

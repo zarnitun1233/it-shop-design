@@ -1,0 +1,6 @@
+/*Common CSS Style*/
+.container {
+    width: 95%;
+    margin: auto;
+    max-width: 1568px;
+}
