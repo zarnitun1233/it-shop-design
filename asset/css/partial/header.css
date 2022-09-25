@@ -4,12 +4,40 @@ header {
     background-color: var(--brand-color);
 }
 
+.header-first {
+    display: flex;
+}
+
+.header-first .logo {
+    flex-grow: 1;
+}
+
+.header-first .header-search,
+.header-first .header-icon 
+{
+    flex-grow: 5;
+}
+
 /*Logo Section*/
 .logo {
     width: 250px;
     padding: 35px 0;
+    border: 1px solid black;
 }
 
-.logo img {
-    width: 100%;
+.header-search {
+    padding: 100px;
+    border: 1px solid black;
+}
+
+.header-search input,
+.header-search optgroup
+{
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.header-icon {
+    padding: 100px;
+    border: 1px solid black;
 }
